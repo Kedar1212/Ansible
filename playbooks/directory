@@ -1,0 +1,8 @@
+---
+- name: Create directory on localhost
+  hosts: localhost
+  tasks:
+    - name: Ensure a directory exists
+      ansible.builtin.file:
+        path: /Users/kedarkanase/Downloads/share/ununtu/kedar
+        state: directory
