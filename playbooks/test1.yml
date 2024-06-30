@@ -4,7 +4,5 @@
   become: yes
   tasks:
     - name: Create file on kiosk
-      file:
-        path: /home/kiosk/hii_sumit
-        state: directory
-        mode: '755'
+      debug:
+        msg: "HELLO WORKING FINE"
