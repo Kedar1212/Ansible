@@ -1,5 +1,0 @@
----
-  - name: Common tasks
-    hosts: all
-    roles:
-      - roles/comman

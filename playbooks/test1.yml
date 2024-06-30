@@ -1,8 +1,0 @@
----
-- name: Hello World Playbook
-  hosts: localhost
-  become: yes
-  tasks:
-    - name: Create file on kiosk
-      debug:
-        msg: "HELLO WORKING FINE"

@@ -1,5 +1,0 @@
----
-  - name: Pd-common tasks
-    hosts: pd-cluster
-    roles:
-      - roles/pd-common
