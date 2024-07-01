@@ -1,0 +1,5 @@
+---
+- name: Apply common configurations
+  hosts: all  #vader_clusters
+  roles:
+    - pd-comman
